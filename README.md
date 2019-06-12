@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-A responsive portfolio for mobile and desktop devices
+# Basic-Portfolio
+First Project: In this project I used HTML and CSS to create a static portfolio website.
