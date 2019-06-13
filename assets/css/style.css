@@ -33,7 +33,7 @@ header {
   
   /* nav styling */
 
-  .navbar {
+  .navLinks {
     float: right;
   }
 
@@ -42,8 +42,7 @@ header {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
-    
+    background-color: #ffffff;  
   }
 
 
@@ -246,10 +245,13 @@ z-index: 0;
 
 
 @media screen and (max-width: 640px){
-
-
   header{
-    height: 9em;
+    height: 9.5em;
+    /* margin-bottom: 800px;  */
+  }
+
+  .content{
+    margin-top: 200px ;
   }
   .center{
     width: 500px;
@@ -259,14 +261,16 @@ z-index: 0;
      width: 100%;
    }
 
-   .navbar {
+   .navLinks {
      width: 100%;
+     margin: 0 auto;
+     text-align: center
 
    }
    nav{
      width: 100%;
    }
-   nav li {
+   nav ul {
     display: inline-block;
   }
 }
