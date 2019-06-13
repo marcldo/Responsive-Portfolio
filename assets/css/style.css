@@ -32,13 +32,18 @@ header {
   }
   
   /* nav styling */
+
+  .navbar {
+    float: right;
+  }
+
   nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
-    float: right;
+    
   }
 
 
@@ -234,14 +239,34 @@ z-index: 0;
 
 
 @media screen and (max-width: 768px){
-  h1, h2 {
-    color: #3F5EFB;
-  }
+  .center{
+    width: 600px;
+   }
 }
 
 
 @media screen and (max-width: 640px){
-  h1, h2 {
-    color: pink;
+
+
+  header{
+    height: 9em;
+  }
+  .center{
+    width: 500px;
+   }
+
+   .logo {
+     width: 100%;
+   }
+
+   .navbar {
+     width: 100%;
+
+   }
+   nav{
+     width: 100%;
+   }
+   nav li {
+    display: inline-block;
   }
 }
