@@ -233,6 +233,20 @@ z-index: 0;
  .center{
   width: 700px;
  }
+
+ .port-widget {
+   width: 300px;
+ }
+ .port-image{
+   width: 100%;
+ }
+
+ .port-title {
+  top: 200px;
+   width: 270px;
+   margin-right: 50px; 
+}
+
 }
 
 
@@ -244,6 +258,20 @@ z-index: 0;
   .center{
     width: 600px;
    }
+
+   .port-widget {
+    width: 250px;
+  }
+  .port-image{
+    width: 100%;
+  }
+ 
+  .port-title {
+   top: 170px;
+    width: 220px;
+    margin-right: 50px; 
+ }
+
 }
 
 
@@ -258,6 +286,13 @@ z-index: 0;
   nav ul {
    display: inline-block;
  }
+ nav li a {
+  display: block;
+  color: #aaaaaa;
+  text-align: center;
+  padding: 0 26px;
+  text-decoration: none;
+}
 
   .bioImage {
     width: 100%;
@@ -279,8 +314,7 @@ z-index: 0;
    .navLinks {
      width: 100%;
      margin: 0 auto;
-     text-align: center
-
+     text-align: center;
    }
 
    .portfolio-container{
