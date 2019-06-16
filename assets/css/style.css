@@ -276,6 +276,8 @@ z-index: 0;
 
 
 @media screen and (max-width: 640px){
+  
+  /* header styling for mobile*/
   header{
     height: 9.5em;
     position: static;
@@ -318,6 +320,7 @@ z-index: 0;
      text-align: center;
    }
 
+   /* portfolio styling for mobile */
    .portfolio-container{
      width: 100%;
    }
