@@ -278,6 +278,7 @@ z-index: 0;
 @media screen and (max-width: 640px){
   header{
     height: 9.5em;
+    position: inherit;
   }
   
   nav{
@@ -301,7 +302,7 @@ z-index: 0;
   }
 
   .content{
-    margin-top: 200px ;
+    margin-top: 50px ;
   }
   .center{
     width: 355px;
