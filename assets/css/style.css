@@ -10,11 +10,21 @@ body{
 }
 
 h1, h2, h3, h4 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Didot', Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+  font-weight: 800;
+  font-size: 35px;
+  line-height: .5em;
 }
 
 p, a{
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Imperial', 'Times New Roman', Times, serif;;
+
+}
+p{
+  line-height: 1.5em;
 }
 
 header {
