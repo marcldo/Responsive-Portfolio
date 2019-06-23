@@ -20,11 +20,11 @@ h1{
 
 p, a{
   /* font-family: Arial, Helvetica, sans-serif; */
-  font-family: 'Imperial', 'Times New Roman', Times, serif;;
+  font-family: 'Imperial','Times New Roman', Times, serif;
 
 }
 p{
-  line-height: 1.5em;
+  line-height: 1.8em;
 }
 
 header {
@@ -216,6 +216,7 @@ textarea {
   }
 
 .port-widget{
+width: 250px;
 position: relative;
 float: left;
 padding: 15px;
@@ -233,8 +234,11 @@ z-index: 0;
   margin: 0px;
   padding: 0px;
   height: 50px;
-  width: 200px;
-  top: 150px;
+  width: 220px;
+  top: 180px;
+}
+.port-image{
+  width: 100%;
 }
 
 /* responsive media queries */
