@@ -227,9 +227,8 @@ z-index: 0;
 .port-title {
   color: #ffffff;
   position: absolute;
-  background-color: #666666;
+  background-color: rgba(102, 102, 102, 0.8);
   border:solid 1px #888888;
-  opacity: 10px;
   text-align: center;
   margin: 0px;
   padding: 0px;
